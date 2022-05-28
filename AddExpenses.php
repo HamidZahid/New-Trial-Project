@@ -48,7 +48,7 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid my-4">
+    <div class="container-fluid bg-light my-4">
         <div class="row">
             <div class="col-md-3">
                 <div class="card">
