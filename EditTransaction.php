@@ -3,7 +3,7 @@
 
 <head>
     <?php include("includes/header/header.php"); ?>
-    <title>New Transfer</title>
+    <title>Edit Transaction</title>
 </head>
 
 <body>
@@ -53,21 +53,11 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">New Transfer</h5>
+                        <h5 class="card-title">Edit Transaction - [#Income-1118]</h5>
                         <hr>
                         <form>
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">From</label>
-                                <select id="disabledSelect" value="" data-id="" class="form-select">
-                                    <option value="">Choose an Account</option>
-                                    <option value="">Choose</option>
-                                    <option value="">Choose</option>
-                                    <option value="">Choose</option>
-                                    <option value="">Choose</option>
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">To</label>
+                                <label for="exampleInputEmail1" class="form-label">Account</label>
                                 <select id="disabledSelect" value="" data-id="" class="form-select">
                                     <option value="">Choose an Account</option>
                                     <option value="">Choose</option>
@@ -87,12 +77,12 @@
                                     data-id="" />
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Currency</label>
-                                <input type="text" class="form-control" id="exampleInputPassword1" value="" data-id=""
-                                    placeholder="USD" />
+                                <label for="exampleInputPassword1" class="form-label">Amount</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1" value=""
+                                    data-id="" />
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Amount</label>
+                                <label for="exampleInputPassword1" class="form-label">Category</label>
                                 <input type="text" class="form-control" id="exampleInputPassword1" value=""
                                     data-id="" />
                             </div>
@@ -100,6 +90,31 @@
                                 <label for="exampleInputPassword1" class="form-label">Tags</label>
                                 <input type="text" class="form-control" id="exampleInputPassword1" value=""
                                     data-id="" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Company</label>
+                                <select id="disabledSelect" class="form-select">
+                                    <option value="">None</option>
+                                    <option value="">Choose</option>
+                                    <option value="">Choose</option>
+                                    <option value="">Choose</option>
+                                    <option value="">Choose</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Payer</label>
+                                <select id="disabledSelect" class="form-select">
+                                    <option value="">Choose Contact</option>
+                                    <option value="">Choose</option>
+                                    <option value="">Choose</option>
+                                    <option value="">Choose</option>
+                                    <option value="">Choose</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Staff</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1" value="" data-id=""
+                                    placeholder="None" />
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Method</label>
@@ -112,12 +127,12 @@
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Ref</label>
+                                <label for="exampleInputPassword1" class="form-label">Ref#</label>
                                 <input type="text" class="form-control" id="exampleInputPassword1" value="" data-id=""
                                     placeholder="None" />
                                     <p style="opacity: 0.5;">e.g Transaction ID, Check No.</p>
                             </div>
-                            <button type="submit" class="btn btn-primary" >Submit</button>
+                            <button type="submit" class="btn btn-primary btn-outline-light" ><i class="fa-solid fa-check"></i> Submit</button>
                         </form>
                     </div>
                 </div>
@@ -125,24 +140,17 @@
             <div class="col-md-9">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Recent Transfer</h5>
+                        <h5 class="card-title">Print</h5>
                         <hr>
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Amount</th>
-                                    <th scope="col">Description</th>
-                                    <th scope="col">Amount</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>JPMorgan Chase & Co</td>
-                                    <td class="text-primary">transfer for goods recieved</td>
-                                    <td>1,800.00</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <button type="submit" class="btn btn-success btn-outline-light"><i class="fa-solid fa-file-invoice"></i> Receipt</button>
+                    </div>
+                </div>
+                <div class="card my-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Delete</h5>
+                        <hr>
+                        <p>Deleting Transaction Can not undone. Current Balance with associated account will be adjust.</p>
+                        <button type="submit" class="btn btn-danger btn-outline-light"><i class="fa-solid fa-trash-can"></i> Delete</button>
                     </div>
                 </div>
             </div>
