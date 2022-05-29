@@ -3,7 +3,7 @@
 
 <head>
     <?php include("includes/header/header.php"); ?>
-    <title>Uncleared Trasaction</title>
+    <title>Recurring invoices</title>
 </head>
 
 <body>
@@ -13,21 +13,37 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                    <h5 class="card-title">New Transfer</h5>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <h5 class="card-title">List Invoices</h5>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Add
+                                    Recurring Invoices</button>
+                            </div>
+                        </div>
                         <hr>
                         <section class="p-2 rounded">
                             <div class="container-fluid overflow-auto">
                                 <table class="display" id="myTable" style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Date</th>
+                                            <th scope="col">#</th>
                                             <th scope="col">Account</th>
-                                            <th scope="col">Description</th>
                                             <th scope="col">Amount</th>
+                                            <th scope="col">Invoice Date</th>
+                                            <th scope="col">Due Date</th>
+                                            <th scope="col">Next Invoice</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Manage</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
+                                            <td>No Data</td>
+                                            <td>No Data</td>
+                                            <td>No Data</td>
+                                            <td>No Data</td>
                                             <td>No Data</td>
                                             <td>No Data</td>
                                             <td>No Data</td>
