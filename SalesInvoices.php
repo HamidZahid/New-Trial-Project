@@ -88,7 +88,7 @@
                                                         <option value="">Choose</option>
                                                     </select>
                                                 </div>
-                                                <button type="submit" class="btn btn-primary">Filter</button>
+                                                <button type="submit" id="fetchbtn" class="btn btn-primary">Filter</button>
                                             </div>
                                         </div>
                                     </div>
@@ -195,6 +195,26 @@
                 </div>
             </div>
         </div>
+        <script>
+        let fetchbtn = document.getElementById('fetchbtn');
+        fetchbtn.addEventListener('click', buttonClickHandler)
+        function buttonClickHandler() {
+            // instantiate an xhr object
+            const xhr = new XMLHttpRequest();
+            // open the object
+            xhr.open('POST', '', '');
+            // what to do on progress
+            xhr.onprogress = function () {
+                console.log('on progress')
+            }
+            // what to do when response is ready
+            xhr.onload = function () {
+                console.log(this.responseText)
+            }
+            // send the request
+            xhr.send();
+        }
+    </script>
 </body>
 
 </html>

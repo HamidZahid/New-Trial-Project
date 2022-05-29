@@ -15,6 +15,29 @@
                     <div class="card-body">
                         <h5 class="card-title">Total : 1</h5>
                         <hr>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="input-group rounded float-right">
+                                    <span class="input-group-text border-0" data-id="" id="search-addon"><i
+                                            class="fas fa-search"></i></span>
+                                    <input type="search" class="form-control rounded" placeholder="Search" data-id=""
+                                        aria-label="Search" aria-describedby="search-addon" id="myInput" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <a href="" type="button" onclick="" onchange="" class="btn btn-secondary float-end "
+                                    id="" data-id="">Print</a>
+                                <a href="" type="button" onclick="" onchange="" class="btn btn-dark float-end mx-1 "
+                                    id="" data-id="">Copy</a>
+                                <a href="" type="button" onclick="" onchange=""
+                                    class="btn btn-primary text-white float-end  " id="" data-id="">CSV</a>
+                                <a href="" type="button" onclick="" onchange=""
+                                    class="btn light-green btn-success text-white float-end  mx-1" id=""
+                                    data-id="">Excel</a>
+                                <a href="" type="button" onclick="" onchange=""
+                                    class="btn light-red btn-danger text-white float-end " id="" data-id="">PDF</a>
+                            </div>
+                        </div>
                         <section class="p-2 rounded">
                             <div class="container-fluid overflow-auto">
                                 <table class="display" id="myTable" style="width:100%">
@@ -30,7 +53,7 @@
                                             <th scope="col">Manage</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody id="change">
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
                                             <td>QUOTE-00001</td>
                                             <td>Maria Elizabeth</td>
@@ -80,7 +103,8 @@
         $(document).ready(function () {
             $('#myTable').DataTable({
                 "bPaginate": true,
-                "bLengthChange": true,
+                "bLengthChange": false,
+                searching: false,
                 "bFilter": true,
                 "bInfo": true,
                 "bAutoWidth": true
@@ -88,6 +112,16 @@
         });
         $(document).ready(function () {
             $('#myTablee').DataTable();
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#change tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
         });
     </script>
 

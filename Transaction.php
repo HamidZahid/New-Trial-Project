@@ -49,7 +49,7 @@
                                     <option value="">Choose</option>
                                 </select>
                             </div>
-                            <button type="button" class="btn btn-primary">Filter</button>
+                            <button type="button" id="fetchbtn" class="btn btn-primary">Filter</button>
                         </form>
                     </div>
                 </div>
@@ -57,6 +57,32 @@
             <div class="col-md-9">
                 <div class="card">
                     <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-9">
+                                <a href="" type="button" onclick="" onchange=""
+                                    class="btn light-red btn-success text-white float-end mx-1 " id="" data-id="">Select
+                                    All</a>
+                                <a href="" type="button" onclick="" onchange=""
+                                    class="btn light-red btn-info text-white float-end  " id="" data-id="">Select
+                                    None</a>
+                                <a href="" type="button" onclick="" onchange=""
+                                    class="btn light-red btn-danger text-white float-end mx-1  " id="" data-id="">Delete
+                                    All</a>
+                                <a href="" type="button" onclick="" onchange="" class="btn btn-secondary float-end "
+                                    id="" data-id="">Print</a>
+                                <a href="" type="button" onclick="" onchange="" class="btn btn-dark float-end mx-1 "
+                                    id="" data-id="">Copy</a>
+                                <a href="" type="button" onclick="" onchange=""
+                                    class="btn btn-primary text-white float-end  " id="" data-id="">CSV</a>
+                                <a href="" type="button" onclick="" onchange=""
+                                    class="btn light-green btn-success text-white float-end  mx-1" id=""
+                                    data-id="">Excel</a>
+                                <a href="" type="button" onclick="" onchange=""
+                                    class="btn light-red btn-danger text-white float-end " id="" data-id="">PDF</a>
+
+                            </div>
+                        </div>
                         <section class="p-2 rounded">
                             <div class="container-fluid overflow-auto">
                                 <table class="display" id="myTable" style="width:100%">
@@ -131,6 +157,26 @@
             </div>
         </div>
     </div>
+    <script>
+        let fetchbtn = document.getElementById('fetchbtn');
+        fetchbtn.addEventListener('click', buttonClickHandler)
+        function buttonClickHandler() {
+            // instantiate an xhr object
+            const xhr = new XMLHttpRequest();
+            // open the object
+            xhr.open('POST', '', '');
+            // what to do on progress
+            xhr.onprogress = function () {
+                console.log('on progress')
+            }
+            // what to do when response is ready
+            xhr.onload = function () {
+                console.log(this.responseText)
+            }
+            // send the request
+            xhr.send();
+        }
+    </script>
     <script>
         $(document).ready(function () {
             $("#myInput").on("keyup", function () {

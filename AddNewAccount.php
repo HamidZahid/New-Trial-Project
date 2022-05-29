@@ -56,13 +56,33 @@
                                 <input type="text" class="form-control" id="exampleInputPassword1" value="" data-id=""
                                     placeholder="" />
                             </div>
-                            <button type="submit" class="btn btn-primary">Save</button>
+                            <button type="submit" id="fetchbtn" class="btn btn-primary">Save</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        let fetchbtn = document.getElementById('fetchbtn');
+        fetchbtn.addEventListener('click', buttonClickHandler)
+        function buttonClickHandler() {
+            // instantiate an xhr object
+            const xhr = new XMLHttpRequest();
+            // open the object
+            xhr.open('POST', '', '');
+            // what to do on progress
+            xhr.onprogress = function () {
+                console.log('on progress')
+            }
+            // what to do when response is ready
+            xhr.onload = function () {
+                console.log(this.responseText)
+            }
+            // send the request
+            xhr.send();
+        }
+    </script>
 </body>
 
 </html>

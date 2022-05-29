@@ -92,7 +92,7 @@
                                     placeholder="None" />
                                 <p style="opacity: 0.5;">e.g Transaction ID, Check No.</p>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-outline-light"><i
+                            <button type="submit" id="fetchbtn" class="btn btn-primary btn-outline-light"><i
                                     class="fa-solid fa-check"></i> Submit</button>
                         </form>
                     </div>
@@ -120,6 +120,26 @@
             </div>
         </div>
     </div>
+    <script>
+        let fetchbtn = document.getElementById('fetchbtn');
+        fetchbtn.addEventListener('click', buttonClickHandler)
+        function buttonClickHandler() {
+            // instantiate an xhr object
+            const xhr = new XMLHttpRequest();
+            // open the object
+            xhr.open('POST', '', '');
+            // what to do on progress
+            xhr.onprogress = function () {
+                console.log('on progress')
+            }
+            // what to do when response is ready
+            xhr.onload = function () {
+                console.log(this.responseText)
+            }
+            // send the request
+            xhr.send();
+        }
+    </script>
 </body>
 
 </html>

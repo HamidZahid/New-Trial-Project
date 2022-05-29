@@ -12,6 +12,9 @@ body{
 .icon_clr{
     color:  #8073F2;
 }
+.icon_clr2{
+  color:  #5443EE;
+}
 .profile_img{
     clip-path: circle();
 }
@@ -36,4 +39,63 @@ body{
   }
   .group-bg{
     background-color: #F2F4F6;
+  }
+  .light-green{
+    background-color: #2CCE89;
+    color: black;
+  }
+  .purple{
+    background-color: #5E72E4;
+    color: black;
+
+  }
+  .light-red{
+ background-color: #F13559;
+ color: black;
+
+  }
+  .orange{
+    background-color: #FB6340;
+    color: black;
+
+  }
+  .cyan{
+    background-color: #10CDEF;
+    color: black;
+
+  }
+  .green-text{
+    color: #30CF8B;
+    color: white;
+
+  }
+  .purple-text{
+    color: #5E72E4 ;
+  }
+  .top-bg-clr{
+    background-color: #143a60;
+    border-radius: 2px;
+  }
+  .card-income-bg{
+    background-color: #EEE5FF;
+  }
+  .card1-bg{
+    background-color: #6947E4;
+  }
+  .card2-bg{
+    background-color: #3D4E74;
+  }
+  .card3-bg{
+    background-color: #33646F;
+  }
+  .img-circle{
+    clip-path: circle();
+  }
+  .xs-button{
+  --bs-btn-padding-y: .25rem; 
+  --bs-btn-padding-x: .8rem; 
+  --bs-btn-font-size: .75rem;
+  }
+  .percentage-size{
+  font-size: smaller;
   }

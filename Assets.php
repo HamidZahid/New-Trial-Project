@@ -53,7 +53,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Total: $ 1,549.00</h5>
                         <hr>
-                        <!-- <div class="row">
+                        <div class="row">
                             <div class="col-3">
                                 <div class="input-group rounded float-right">
                                     <span class="input-group-text border-0" data-id="" id="search-addon"><i
@@ -68,13 +68,14 @@
                                 <a href="" type="button" onclick="" onchange="" class="btn btn-dark float-end mx-1 "
                                     id="" data-id="">Copy</a>
                                 <a href="" type="button" onclick="" onchange=""
-                                    class="btn purple text-white float-end  " id="" data-id="">CSV</a>
+                                    class="btn btn-primary text-white float-end  " id="" data-id="">CSV</a>
                                 <a href="" type="button" onclick="" onchange=""
-                                    class="btn light-green text-white float-end  mx-1" id="" data-id="">Excel</a>
+                                    class="btn light-green btn-success text-white float-end  mx-1" id=""
+                                    data-id="">Excel</a>
                                 <a href="" type="button" onclick="" onchange=""
-                                    class="btn light-red text-white float-end " id="" data-id="">PDF</a>
+                                    class="btn light-red btn-danger text-white float-end " id="" data-id="">PDF</a>
                             </div>
-                        </div> -->
+                        </div>
                         <section class="p-2 rounded">
                             <div class="container-fluid overflow-auto">
                                 <table class="display" id="myTable" style="width:100%">
@@ -86,7 +87,7 @@
                                             <th scope="col">Price</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody id="change">
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
                                             <th>Mackbook Pro</th>
                                             <th>2018-11-16</th>
@@ -111,17 +112,17 @@
     <script>
         let fetchbtn = document.getElementById('fetchbtn');
         fetchbtn.addEventListener('click', buttonClickHandler)
-        function buttonClickHandler(){
+        function buttonClickHandler() {
             // instantiate an xhr object
-            const xhr = new XMLHttpRequest(); 
+            const xhr = new XMLHttpRequest();
             // open the object
             xhr.open('POST', '', '');
             // what to do on progress
-            xhr.onprogress = function(){
+            xhr.onprogress = function () {
                 console.log('on progress')
             }
             // what to do when response is ready
-            xhr.onload = function(){
+            xhr.onload = function () {
                 console.log(this.responseText)
             }
             // send the request
@@ -148,18 +149,42 @@
 
     </script>
 
-    <script>
+    <!-- <script>
         $(document).ready(function () {
             $('#myTable').DataTable({
                 "bPaginate": true,
-                "bLengthChange": true,
+                "bLengthChange": false,
                 "bFilter": true,
+                searching: false,
                 "bInfo": true,
                 "bAutoWidth": true
             });
         });
         $(document).ready(function () {
             $('#myTablee').DataTable();
+        });
+    </script> -->
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable({
+                searching: false,
+                bLengthChange: false,
+                language: {
+                    searchPanes: {
+
+                    }
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#change tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
         });
     </script>
 
