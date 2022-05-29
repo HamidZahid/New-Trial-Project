@@ -70,7 +70,7 @@
                                             <th scope="col">Description</th>
                                             <th scope="col">Dr.(USD)</th>
                                             <th scope="col">Cr.(USD)</th>
-                                            <th scope="col">Manage  </th>
+                                            <th scope="col">Manage </th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -83,7 +83,8 @@
                                             <td>transfer for goods recieved</td>
                                             <td>0.00</td>
                                             <td>1800.00</td>
-                                            <td><button class=" btn btn-primary btn-outline-light"> <i class="fa-solid fa-file"></i></button></td>
+                                            <td><button class=" btn btn-primary btn-outline-light"> <i
+                                                        class="fa-solid fa-file"></i></button></td>
                                         </tr>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
                                             <td>1121</td>
@@ -94,7 +95,8 @@
                                             <td>transfer for goods recieved</td>
                                             <td>0.00</td>
                                             <td>1800.00</td>
-                                            <td><button class=" btn btn-primary btn-outline-light"> <i class="fa-solid fa-file"></i></button></td>
+                                            <td><button class=" btn btn-primary btn-outline-light"> <i
+                                                        class="fa-solid fa-file"></i></button></td>
                                         </tr>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
                                             <td>1122</td>
@@ -105,7 +107,8 @@
                                             <td>Phone</td>
                                             <td>0.00</td>
                                             <td>1800.00</td>
-                                            <td><button class=" btn btn-primary btn-outline-light"> <i class="fa-solid fa-file"></i></button></td>
+                                            <td><button class=" btn btn-primary btn-outline-light"> <i
+                                                        class="fa-solid fa-file"></i></button></td>
                                         </tr>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
                                             <td>1123</td>
@@ -116,7 +119,8 @@
                                             <td>Freight</td>
                                             <td>0.00</td>
                                             <td>1800.00</td>
-                                            <td><button class=" btn btn-primary btn-outline-light"> <i class="fa-solid fa-file"></i></button></td>
+                                            <td><button class=" btn btn-primary btn-outline-light"> <i
+                                                        class="fa-solid fa-file"></i></button></td>
                                         </tr>
                                     </tbody>
                                 </table>
