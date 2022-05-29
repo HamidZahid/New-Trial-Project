@@ -42,7 +42,7 @@
                                 </div>
                                 <label for="inputAddress" class="form-label my-2">Quote Prefix</label>
                                 <input type="text" class="form-control" id="inputAddress" placeholder="">
-                                <label for="inputAddress" class="form-label my-2">Quote Prefix</label>
+                                <label for="inputAddress" class="form-label my-2">Quote #</label>
                                 <input type="text" class="form-control" id="inputAddress" placeholder="">
                             </div>
                             <div class="col-md-6">
@@ -55,13 +55,67 @@
                                 <p>Discount <span class="badge rounded-pill text-bg-primary"><i
                                             class="fa-solid fa-clock"></i> Get Discount</span></p>
                             </div>
+                            <hr>
                             <div class="col-12">
-                                <div class="page-wrapper box-content">
-                                    <textarea class="content" name="example"></textarea>
+                                <label for="inputAddress" class="form-label ">Proposal Text</label>
+                                <textarea class="content" name="example"></textarea>
+                                <p>Display At the Top Of the Quote</p>
+                            </div>
+                            <hr>
+                            <div class="col-md-1">
+                                <label for="inputCity" class="form-label">Item Code</label>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
                                 </div>
                             </div>
+                            <div class="col-md-1">
+                                <label for="inputZip" class="form-label">Qty</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                            <div class="col-md-1">
+                                <label for="inputZip" class="form-label">Price</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                            <div class="col-md-1">
+                                <label for="inputZip" class="form-label">Total</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                            <div class="col-md-1">
+                                <label for="inputZip" class="form-label">Tax</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Add Blank
+                                    Line</button>
+                                <button type="submit" class="btn btn-primary"><i
+                                        class="fa-solid fa-magnifying-glass"></i> Add Product OR Service</button>
+                            </div>
+                            <div class="col-md-8">
+                                <!-- Dummy Grid Col -->
+                            </div>
+                            <div class="col-md-2">
+                                <h6>Sub Total:</h6>
+                                <h6>Discount:</h6>
+                                <h6>TAX:</h6>
+                                <h6>TOTAL:</h6>
+                            </div>
+                            <div class="col-md-2">
+                                <h6>0.00</h6>
+                                <h6>0.00</h6>
+                                <h6>0.00</h6>
+                                <h6>0.00</h6>
+                            </div>
+                            <hr>
                             <div class="col-12">
-                                <button type="submit" class="btn btn-primary">Sign in</button>
+                                <label for="inputAddress" class="form-label ">Customer Notes</label>
+                                <textarea class="content" name="example"></textarea>
+                                <p>Display as a Footer Of the Quote</p>
+                            </div>
+                            <div class="col-12 d-md-flex justify-content-md-end">
+                                <button type="submit" class="btn btn-primary">Save</button>
                             </div>
                         </form>
                     </div>
