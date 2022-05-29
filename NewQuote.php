@@ -19,11 +19,12 @@
                             <div class="col-12">
                                 <label for="inputAddress" class="form-label">Subject</label>
                                 <input type="text" class="form-control" id="inputAddress" data-id="" value=""
-                                    placeholder="">
+                                    placeholder="" />
                             </div>
                             <div class="col-md-6">
                                 <label for="inputEmail4" class="form-label">Customer</label>
-                                <select class="form-select" aria-label="Default select example">
+                                <select class="form-select" id="" data-id="" value=""
+                                    aria-label="Default select example">
                                     <option selected>Select Contact</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -33,7 +34,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label for="inputPassword4" class="form-label">Date Created</label>
-                                <input type="date" class="form-control" id="inputPassword4">
+                                <input type="date" class="form-control" id="inputPassword4" data-id="" value="" />
                             </div>
                             <div class="col-md-6">
                                 <div class="mb-3">
@@ -41,17 +42,17 @@
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                                 </div>
                                 <label for="inputAddress" class="form-label my-2">Quote Prefix</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                <input type="text" class="form-control" id="inputAddress" data-id="" value="" />
                                 <label for="inputAddress" class="form-label my-2">Quote #</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                <input type="text" class="form-control" id="inputAddress" data-id="" value="" />
                             </div>
                             <div class="col-md-6">
                                 <label for="inputPassword4" class="form-label">Expiry Date</label>
-                                <input type="date" class="form-control" id="inputPassword4">
+                                <input type="date" class="form-control" id="inputPassword4" data-id="" value="" />
                                 <label for="inputAddress" class="form-label my-2">Stage</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                <input type="text" class="form-control" id="inputAddress" data-id="" value="" />
                                 <label for="inputAddress" class="form-label my-2">Sales Tax</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                <input type="text" class="form-control" id="inputAddress" data-id="" value="" />
                                 <p>Discount <span class="badge rounded-pill text-bg-primary"><i
                                             class="fa-solid fa-clock"></i> Get Discount</span></p>
                             </div>
@@ -73,19 +74,19 @@
                             </div>
                             <div class="col-md-1">
                                 <label for="inputZip" class="form-label">Qty</label>
-                                <input type="text" class="form-control" id="inputZip">
+                                <input type="text" class="form-control" id="inputZip" data-id="" value="" />
                             </div>
                             <div class="col-md-1">
                                 <label for="inputZip" class="form-label">Price</label>
-                                <input type="text" class="form-control" id="inputZip">
+                                <input type="text" class="form-control" id="inputZip" data-id="" value="" />
                             </div>
                             <div class="col-md-1">
                                 <label for="inputZip" class="form-label">Total</label>
-                                <input type="text" class="form-control" id="inputZip">
+                                <input type="text" class="form-control" id="inputZip" data-id="" value="" />
                             </div>
                             <div class="col-md-1">
                                 <label for="inputZip" class="form-label">Tax</label>
-                                <input type="text" class="form-control" id="inputZip">
+                                <input type="text" class="form-control" id="inputZip" data-id="" value="" />
                             </div>
                             <div class="col-md-12">
                                 <button type="submit" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Add Blank
