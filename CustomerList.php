@@ -37,7 +37,8 @@
                                     </thead>
                                     <tbody>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
-                                            <td><img src="assets/images/profile.jpg" id="" width="40" class="profile_img mx-2" alt="" srcset=""/></td>
+                                            <td><img src="assets/images/profile.jpg" id="" width="40"
+                                                    class="profile_img mx-2" alt="" srcset="" /></td>
                                             <th>Stephen John</th>
                                             <th>Client@example.com</th>
                                             <th>1-682-291-7060</th>
@@ -50,7 +51,8 @@
                                             </td>
                                         </tr>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
-                                            <td><img src="assets/images/profile.jpg" id="" width="40" class="profile_img mx-2" alt="" srcset=""/></td>
+                                            <td><img src="assets/images/profile.jpg" id="" width="40"
+                                                    class="profile_img mx-2" alt="" srcset="" /></td>
                                             <th>Stephen John</th>
                                             <th class="text-primary">Client@example.com</th>
                                             <th>1-682-291-7060</th>
@@ -63,7 +65,8 @@
                                             </td>
                                         </tr>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
-                                            <td><img src="assets/images/profile.jpg" id="" width="40" class="profile_img mx-2" alt="" srcset=""/></td>
+                                            <td><img src="assets/images/profile.jpg" id="" width="40"
+                                                    class="profile_img mx-2" alt="" srcset="" /></td>
                                             <th>Stephen John</th>
                                             <th class="text-success">Client@example.com</th>
                                             <th>1-682-291-7060</th>
@@ -76,7 +79,8 @@
                                             </td>
                                         </tr>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
-                                            <td><img src="assets/images/profile.jpg" id="" width="40" class="profile_img mx-2" alt="" srcset=""/></td>
+                                            <td><img src="assets/images/profile.jpg" id="" width="40"
+                                                    class="profile_img mx-2" alt="" srcset="" /></td>
                                             <th>Stephen John</th>
                                             <th class="text-danger">Client@example.com</th>
                                             <th>1-682-291-7060</th>
@@ -89,7 +93,8 @@
                                             </td>
                                         </tr>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
-                                            <td><img src="assets/images/profile.jpg" id="" width="40" class="profile_img mx-2" alt="" srcset=""/></td>
+                                            <td><img src="assets/images/profile.jpg" id="" width="40"
+                                                    class="profile_img mx-2" alt="" srcset="" /></td>
                                             <th>Stephen John</th>
                                             <th class="text-primary">Client@example.com</th>
                                             <th>1-682-291-7060</th>
