@@ -1,0 +1,39 @@
+*{    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2F4F6;
+
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.icon_clr{
+    color:  #8073F2;
+}
+.profile_img{
+    clip-path: circle();
+}
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    line-height: 35;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+  }
+  .btn-circle i {
+    position: relative;
+    top: -1px;
+  }
+  
+  .btn-circle-sm {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.9rem;
+  }
+  .group-bg{
+    background-color: #F2F4F6;
+  }
