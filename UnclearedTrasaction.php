@@ -13,9 +13,9 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                        <section class="p-2  rounded">
+                        <section class="p-2 rounded">
                             <div class="container-fluid overflow-auto">
-                                <table class=" display" id="myTable" style="width:100%">
+                                <table class="display" id="myTable" style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Date</th>
@@ -24,8 +24,8 @@
                                             <th scope="col">Amount</th>
                                         </tr>
                                     </thead>
-                                    <tbody >
-                                        <tr href="javascript:void(0)" onclick="change_color(this)">             
+                                    <tbody>
+                                        <tr href="javascript:void(0)" onclick="change_color(this)">
                                             <td>No Data</td>
                                             <td>No Data</td>
                                             <td>No Data</td>
@@ -34,7 +34,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </section>  
+                        </section>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                 "bLengthChange": true,
                 "bFilter": true,
                 "bInfo": true,
-                "bAutoWidth": true  
+                "bAutoWidth": true
             });
         });
         $(document).ready(function () {
