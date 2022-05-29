@@ -3,7 +3,7 @@
 
 <head>
     <?php include("includes/header/header.php"); ?>
-    <title>Invoices </title>
+    <title>Sales Invoices </title>
 </head>
 
 <body>

@@ -41,12 +41,11 @@
                                                 <h6>Total Out: $0.00</h6>
                                                 <h6>Balance (in home currency) :$0.00</h6>
                                             </th>
-                                            <td><button class=" btn btn-primary"><i
-                                                        class="fa-solid fa-plus"></i> Record initial Balance</button><button
-                                                    class=" btn btn-dark"><i
+                                            <td><button class=" btn btn-primary"><i class="fa-solid fa-plus"></i> Record
+                                                    initial Balance</button><button class=" btn btn-dark"><i
                                                         class="fa-solid fa-pencil"></i> Edit</button><button
-                                                    class=" btn btn-danger"><i
-                                                        class="fa-solid fa-trash-can"></i> Delete</button>
+                                                    class=" btn btn-danger"><i class="fa-solid fa-trash-can"></i>
+                                                    Delete</button>
                                             </td>
                                         </tr>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
@@ -57,12 +56,11 @@
                                                 <h6>Total Out: $0.00</h6>
                                                 <h6>Balance (in home currency) :$0.00</h6>
                                             </th>
-                                            <td><button class=" btn btn-primary"><i
-                                                        class="fa-solid fa-plus"></i> Record initial Balance</button><button
-                                                    class=" btn btn-dark"><i
+                                            <td><button class=" btn btn-primary"><i class="fa-solid fa-plus"></i> Record
+                                                    initial Balance</button><button class=" btn btn-dark"><i
                                                         class="fa-solid fa-pencil"></i> Edit</button><button
-                                                    class=" btn btn-danger"><i
-                                                        class="fa-solid fa-trash-can"></i> Delete</button>
+                                                    class=" btn btn-danger"><i class="fa-solid fa-trash-can"></i>
+                                                    Delete</button>
                                             </td>
                                         </tr>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
@@ -73,12 +71,11 @@
                                                 <h6>Total Out: $0.00</h6>
                                                 <h6>Balance (in home currency) :$0.00</h6>
                                             </th>
-                                            <td><button class=" btn btn-primary"><i
-                                                        class="fa-solid fa-plus"></i> Record initial Balance</button><button
-                                                    class=" btn btn-dark"><i
+                                            <td><button class=" btn btn-primary"><i class="fa-solid fa-plus"></i> Record
+                                                    initial Balance</button><button class=" btn btn-dark"><i
                                                         class="fa-solid fa-pencil"></i> Edit</button><button
-                                                    class=" btn btn-danger"><i
-                                                        class="fa-solid fa-trash-can"></i> Delete</button>
+                                                    class=" btn btn-danger"><i class="fa-solid fa-trash-can"></i>
+                                                    Delete</button>
                                             </td>
                                         </tr>
                                         <tr href="javascript:void(0)" onclick="change_color(this)">
@@ -89,12 +86,11 @@
                                                 <h6>Total Out: $0.00</h6>
                                                 <h6>Balance (in home currency) :$0.00</h6>
                                             </th>
-                                            <td><button class=" btn btn-primary"><i
-                                                        class="fa-solid fa-plus"></i> Record initial Balance</button><button
-                                                    class=" btn btn-dark"><i
+                                            <td><button class=" btn btn-primary"><i class="fa-solid fa-plus"></i> Record
+                                                    initial Balance</button><button class=" btn btn-dark"><i
                                                         class="fa-solid fa-pencil"></i> Edit</button><button
-                                                    class=" btn btn-danger"><i
-                                                        class="fa-solid fa-trash-can"></i> Delete</button>
+                                                    class=" btn btn-danger"><i class="fa-solid fa-trash-can"></i>
+                                                    Delete</button>
                                             </td>
                                         </tr>
                                     </tbody>
