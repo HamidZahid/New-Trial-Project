@@ -25,28 +25,34 @@
                 <form action="" method="post">
                     <div class="row">
                         <div class="col-2 ">
-                            <label for="category" class="col-form-label ">Suppliers <span class="text-danger">*</span></label>
+                            <label for="category" class="col-form-label ">Suppliers <span
+                                    class="text-danger">*</span></label>
                             <br>
-                            <label for="category" class="col-form-label ">Contact Person <span class="text-danger">*</span></label>
+                            <label for="category" class="col-form-label ">Contact Person <span
+                                    class="text-danger">*</span></label>
                             <br>
-                            <label for="category" class="col-form-label my-2">Email <span class="text-danger">*</span></label>
+                            <label for="category" class="col-form-label my-2">Email <span
+                                    class="text-danger">*</span></label>
                             <br>
-                            <label for="category" class="col-form-label my-2">Phone <span class="text-danger">*</span></label>
+                            <label for="category" class="col-form-label my-2">Phone <span
+                                    class="text-danger">*</span></label>
                             <br>
-                            <label for="category" class="col-form-label ">Address <span class="text-danger">*</span></label>
+                            <label for="category" class="col-form-label ">Address <span
+                                    class="text-danger">*</span></label>
 
                         </div>
                         <div class="col-md-10">
-                            <input type="text" id="category" class="form-control my-2 " aria-describedby="passwordHelpInline"
-                                data-id="" placeholder="Suppliers" />
-                            <input type="text" id="category" class="form-control my-2 " aria-describedby="passwordHelpInline"
-                                data-id="" placeholder="Contact Person" />
-                            <input type="text" id="category" class="form-control my-2 " aria-describedby="passwordHelpInline"
-                                data-id="" placeholder="Email" />
-                            <input type="text" id="category" class="form-control my-2 " aria-describedby="passwordHelpInline"
-                                data-id="" placeholder="Phone" />
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Address"></textarea>
-                                <button type="submit" class="btn btn-primary rounded-0 my-3">Add Supplier</button>
+                            <input type="text" id="category" class="form-control my-2 "
+                                aria-describedby="passwordHelpInline" data-id="" placeholder="Suppliers" />
+                            <input type="text" id="category" class="form-control my-2 "
+                                aria-describedby="passwordHelpInline" data-id="" placeholder="Contact Person" />
+                            <input type="text" id="category" class="form-control my-2 "
+                                aria-describedby="passwordHelpInline" data-id="" placeholder="Email" />
+                            <input type="text" id="category" class="form-control my-2 "
+                                aria-describedby="passwordHelpInline" data-id="" placeholder="Phone" />
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Address"></textarea>
+                            <button type="submit" class="btn btn-primary rounded-0 my-3">Add Supplier</button>
                         </div>
                     </div>
                 </form>
