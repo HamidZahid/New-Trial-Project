@@ -25,12 +25,13 @@
                 <form action="" method="post">
                     <div class="row">
                         <div class="col-2 ">
-                            <label for="category" class="col-form-label ">Warehouse <span class="text-danger">*</span></label>
+                            <label for="category" class="col-form-label ">Warehouse <span
+                                    class="text-danger">*</span></label>
                         </div>
                         <div class="col-md-10">
-                            <input type="text" id="category" class="form-control my-2 " aria-describedby="passwordHelpInline"
-                                data-id="" placeholder="Warehouse" />
-                                <button type="submit" class="btn btn-primary rounded-0 my-3">Add Warehouse</button>
+                            <input type="text" id="category" class="form-control my-2 "
+                                aria-describedby="passwordHelpInline" data-id="" placeholder="Warehouse" />
+                            <button type="submit" class="btn btn-primary rounded-0 my-3">Add Warehouse</button>
                         </div>
                     </div>
                 </form>
