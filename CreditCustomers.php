@@ -14,13 +14,13 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item text-decoration-none" id="" data-id=""><a href="#"
                         style="text-decoration: none;">Dashboard</a></li>
-                <li class="breadcrumb-item active" aria-current="page" id="" data-id="">Credit Customers invoices LIst
+                <li class="breadcrumb-item active" aria-current="page" id="" data-id="">Credit Customers invoices List
                 </li>
             </ol>
         </nav>
         <div class="card">
             <div class="card-body">
-                <div class="h6 fw-bold mx-3" id="" data-id="">Exporting Credit Customers Invoices Datang</div>
+                <div class="h6 fw-bold mx-3" id="" data-id="">Exporting Credit Customers Invoices Data</div>
                 <section class="p-2 rounded">
                     <div class="container-fluid overflow-auto">
                         <table class="display" id="myTable" style="width:100%">
@@ -45,8 +45,9 @@
                                     <td>$1450</td>
                                     <td>$1450</td>
                                     <td>$0</td>
-                                    <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i> View History</button><button
-                                            class=" btn rounded-0 mx-1"><i class="fa-solid fa-pencil"></i> Edit</button>
+                                    <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i> View
+                                            History</button><button class=" btn rounded-0 mx-1"><i
+                                                class="fa-solid fa-pencil"></i> Edit</button>
                                     </td>
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
@@ -57,8 +58,9 @@
                                     <td>$1450</td>
                                     <td>$1450</td>
                                     <td>$300</td>
-                                    <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i> View History</button><button
-                                            class=" btn rounded-0 mx-1"><i class="fa-solid fa-pencil"></i> Edit</button>
+                                    <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i> View
+                                            History</button><button class=" btn rounded-0 mx-1"><i
+                                                class="fa-solid fa-pencil"></i> Edit</button>
                                     </td>
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
@@ -69,8 +71,9 @@
                                     <td>$1450</td>
                                     <td>$1450</td>
                                     <td>$2250</td>
-                                    <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i> View History</button><button
-                                            class=" btn rounded-0 mx-1"><i class="fa-solid fa-pencil"></i> Edit</button>
+                                    <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i> View
+                                            History</button><button class=" btn rounded-0 mx-1"><i
+                                                class="fa-solid fa-pencil"></i> Edit</button>
                                     </td>
                                 </tr>
                                 <tr>
