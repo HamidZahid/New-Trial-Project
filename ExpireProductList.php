@@ -50,7 +50,7 @@
                                             id="" data-id="" value="" /></td>
                                     <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i>
                                             View</button>
-                                        <button class=" btn rounded-0 mx-1"><i class="fa-solid fa-pencil"></i>
+                                        <button class=" btn rounded-0 mx-1" style="border: 1px solid black;"><i class="fa-solid fa-pencil" ></i>
                                             Edit</button>
                                         <button class=" btn btn-danger rounded-0 mx-1"><i
                                                 class="fa-solid fa-trash-can"></i> Delete</button>
@@ -64,11 +64,11 @@
                                     <td>2022-03-09</td>
                                     <td>2022-03-12</td>
                                     <td>0</td>
-                                    <td><img src="./assets/images/profile.jpg" class="" alt="" style="width: 50px;" id=""
-                                            data-id="" value="" /></td>
+                                    <td><img src="./assets/images/profile.jpg" class="" alt="" style="width: 50px;"
+                                            id="" data-id="" value="" /></td>
                                     <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i>
                                             View</button>
-                                        <button class=" btn rounded-0 mx-1"><i class="fa-solid fa-pencil"></i>
+                                        <button class=" btn rounded-0 mx-1" style="border: 1px solid black;"><i class="fa-solid fa-pencil" ></i>
                                             Edit</button>
                                         <button class=" btn btn-danger rounded-0 mx-1"><i
                                                 class="fa-solid fa-trash-can"></i> Delete</button>
@@ -82,18 +82,18 @@
                                     <td>2022-03-09</td>
                                     <td>2022-03-12</td>
                                     <td>0</td>
-                                    <td><img src="./assets/images/profile.jpg" class="" alt="" style="width: 50px;" id=""
-                                            data-id="" value="" /></td>
+                                    <td><img src="./assets/images/profile.jpg" class="" alt="" style="width: 50px;"
+                                            id="" data-id="" value="" /></td>
                                     <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i>
                                             View</button>
-                                        <button class=" btn rounded-0 mx-1"><i class="fa-solid fa-pencil"></i>
+                                        <button class=" btn rounded-0 mx-1" style="border: 1px solid black;"><i class="fa-solid fa-pencil" ></i>
                                             Edit</button>
                                         <button class=" btn btn-danger rounded-0 mx-1"><i
                                                 class="fa-solid fa-trash-can"></i> Delete</button>
                                     </td>
                                 </tr>
                                 <tr>
-                                <th scope="col">No</th>
+                                    <th scope="col">No</th>
                                     <th scope="col">Products</th>
                                     <th scope="col">Model</th>
                                     <th scope="col">SKU</th>
