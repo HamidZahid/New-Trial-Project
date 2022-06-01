@@ -88,18 +88,18 @@
                                         </select>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <th scope="col">No</th>
-                                    <th scope="col">Invoice no</th>
-                                    <th scope="col">Created by. Name</th>
-                                    <th scope="col">Date</th>
-                                    <th scope="col">Total Amount</th>
-                                    <th scope="col">Paid Amount</th>
-                                    <th scope="col">Unpaid Amount</th>
-                                    <th scope="col">Option</th>
-                                    <th scope="col">Status</th>
-                                </tr>
                             </tbody>
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Invoice no</th>
+                                <th scope="col">Created by. Name</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Total Amount</th>
+                                <th scope="col">Paid Amount</th>
+                                <th scope="col">Unpaid Amount</th>
+                                <th scope="col">Option</th>
+                                <th scope="col">Status</th>
+                            </tr>
                         </table>
                     </div>
                 </section>
