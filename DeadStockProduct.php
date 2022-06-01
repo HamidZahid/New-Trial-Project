@@ -50,9 +50,9 @@
                                             id="" data-id="" value="" /></td>
                                     <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i>
                                             View</button>
-                                        <button class=" btn rounded-0 mx-1"><i class="fa-solid fa-circle-info"></i> Not
+                                        <button class=" btn rounded-0 mx-1" style="border: 1px solid black"><i class="fa-solid fa-circle-info"></i> Not
                                             Dead Stock</button>
-                                        <button class=" btn rounded-0 mx-1"><i class="fa-solid fa-pencil"></i>
+                                        <button class=" btn rounded-0 mx-1" style="border: 1px solid black"><i class="fa-solid fa-pencil"></i>
                                             Edit</button>
                                         <button class=" btn btn-danger rounded-0 mx-1"><i
                                                 class="fa-solid fa-trash-can"></i> Delete</button>
@@ -70,26 +70,26 @@
                                             data-id="" value="" /></td>
                                     <td><button class=" btn btn-success rounded-0"><i class="fa-solid fa-eye"></i>
                                             View</button>
-                                        <button class=" btn rounded-0 mx-1"><i class="fa-solid fa-circle-info"></i> Not
+                                        <button class=" btn rounded-0 mx-1" style="border: 1px solid black"><i class="fa-solid fa-circle-info"></i> Not
                                             Dead Stock</button>
-                                        <button class=" btn rounded-0 mx-1"><i class="fa-solid fa-pencil"></i>
+                                        <button class=" btn rounded-0 mx-1" style="border: 1px solid black"><i class="fa-solid fa-pencil"></i>
                                             Edit</button>
                                         <button class=" btn btn-danger rounded-0 mx-1"><i
                                                 class="fa-solid fa-trash-can"></i> Delete</button>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <th scope="col">No</th>
-                                    <th scope="col">Products</th>
-                                    <th scope="col">Model</th>
-                                    <th scope="col">SKU</th>
-                                    <th scope="col">Quantity</th>
-                                    <th scope="col">Supplier Price</th>
-                                    <th scope="col">Sell Price</th>
-                                    <th scope="col">Image</th>
-                                    <th scope="col">Option</th>
-                                </tr>
                             </tbody>
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Products</th>
+                                <th scope="col">Model</th>
+                                <th scope="col">SKU</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Supplier Price</th>
+                                <th scope="col">Sell Price</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Option</th>
+                            </tr>
                         </table>
                     </div>
                 </section>

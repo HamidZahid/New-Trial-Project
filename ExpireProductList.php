@@ -92,18 +92,18 @@
                                                 class="fa-solid fa-trash-can"></i> Delete</button>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <th scope="col">No</th>
-                                    <th scope="col">Products</th>
-                                    <th scope="col">Model</th>
-                                    <th scope="col">SKU</th>
-                                    <th scope="col">Mfg. Date </th>
-                                    <th scope="col">Exp. Date</th>
-                                    <th scope="col">Quantity</th>
-                                    <th scope="col">Image</th>
-                                    <th scope="col">Option</th>
-                                </tr>
                             </tbody>
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Products</th>
+                                <th scope="col">Model</th>
+                                <th scope="col">SKU</th>
+                                <th scope="col">Mfg. Date </th>
+                                <th scope="col">Exp. Date</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Option</th>
+                            </tr>
                         </table>
                     </div>
                 </section>

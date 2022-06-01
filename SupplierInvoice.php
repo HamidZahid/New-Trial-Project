@@ -3,64 +3,60 @@
 
 <head>
     <?php include("./includes/header/header.php"); ?>
-    <title>Add Expenses</title>
+    <title>Supplier Invoice</title>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="h4 fw-bold">Add Expenses</div>
+        <div class="h4 fw-bold">Supplier Invoice</div>
         <!-- breadcrumb   -->
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item text-decoration-none" id="" data-id=""><a href="#">Dashboard</a></li>
-                <li class="breadcrumb-item active" aria-current="page" id="" data-id="">Add Expenses</li>
+                <li class="breadcrumb-item active" aria-current="page" id="" data-id="">Supplier invoice</li>
             </ol>
         </nav>
         <div class="card">
             <div class="card-body">
                 <form>
                     <div class="row">
-                        <div class="col-3">
-                            <label for="expense" class="col-form-label" data-id="">Expense Type <span
+                        <div class="col-2">
+                            <label for="expense" class="col-form-label" data-id="">Select Supplier <span
+                                    class="text-danger">*</span></label> <br>
+                            <label for="date" class="col-form-label" data-id="">Warehouse<span
+                                    class="text-danger">*</span></label> <br>
+                            <label for="date" class="col-form-label" data-id="">Date<span
                                     class="text-danger">*</span></label>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <select class="form-select rounded-0" aria-label="Default select example" id="expense"
                                 data-id="">
-                                <option selected>Select Expense</option>
+                                <option selected>Select Supplier</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
-                        </div>
-                    </div>
-                    <div class="row g-3 align-items-center my-2">
-                        <div class="col-3">
-                            <label for="date" class="col-form-label" data-id="">Date<span
-                                    class="text-danger">*</span></label>
-                        </div>
-                        <div class="col-4">
-                            <select class="form-select rounded-0" aria-label="Default select example" id="expense"
+
+                            <select class="form-select rounded-0 my-2" aria-label="Default select example" id="expense"
                                 data-id="">
-                                <option selected>Select Expense</option>
+                                <option selected>Select Warehouse</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
+                            <input type="date" id="date" class="form-control rounded-0 my-2" aria-describedby=""
+                                data-id="" placeholder="Categories" />
                         </div>
-                    </div>
-                    <div class="row g-3 align-items-center my-2">
-                        <div class="col-3">
-                            <label for="date" class="col-form-label" data-id="">Date<span
-                                    class="text-danger">*</span></label>
+                        <div class="col-md-2">
+                            <label for="date" class="col-form-label" data-id="">Image</label>
                         </div>
-                        <div class="col-4">
-                            <input type="date" id="date" class="form-control rounded-0" aria-describedby="" data-id=""
+                        <div class="col-md-4">
+                            <input type="file" id="date" class="form-control rounded-0" aria-describedby="" data-id=""
                                 placeholder="Categories" />
                         </div>
                     </div>
                 </form>
-                <table class="">
+                <table class="my-4">
                     <tr>
                         <th id="" data-id="">Item Information <span class="text-danger m-1">*</span></th>
                         <th id="" data-id="">Quantity<span class="text-danger m-1">*</span></th>
